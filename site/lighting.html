@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stage lighting gallery | Akinyemi Fiyinfoluwa</title>
+<meta name="description" content="Live stage lighting design and console programming by Akinyemi Fiyinfoluwa, head lighting operator at Covenant University Chapel.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Schibsted+Grotesk:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="stage">
+<a class="skip" href="#gallery">Skip to gallery</a>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html">Akinyemi Fiyinfoluwa</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html">Portfolio</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="stage-head">
+    <div class="wrap">
+      <h1>Stage lighting and console mixing</h1>
+      <p class="lead">I design and run lighting for live productions. I program fixtures on an Avolites Titan console, manage DMX universes and call cues while the show is on air. These are clips from the rooms I have worked in.</p>
+      <dl class="spec">
+        <div><dt>Console</dt><dd>Avolites Titan</dd></div>
+        <div><dt>Control</dt><dd>DMX line routing and fixture programming</dd></div>
+        <div><dt>Role</dt><dd>Electrical Head and System Operator, Covenant University Chapel</dd></div>
+        <div><dt>Crew</dt><dd>80+ member technical electrical team</dd></div>
+      </dl>
+    </div>
+  </div>
+
+  <section class="gallery" id="gallery" aria-labelledby="gh">
+    <div class="wrap">
+      <h2 id="gh">Gallery</h2>
+      <!-- To add a playable clip: put the mp4 in assets/video/ and a poster jpg (720x1280) in assets/img/, then copy the first <li> below and edit href, data-title, data-poster, img src, the alt, the length, the title and the caption.
+           To fill a "coming soon" slot: replace the whole <li> with a copy of a playable one. -->
+      <ul class="clips">
+        <li>
+          <a class="clip" href="assets/video/light-1.mp4" data-title="Stage performance, full cue run" data-poster="assets/img/light-1.jpg">
+            <span class="frame">
+              <img src="assets/img/light-1.jpg" width="720" height="1280" alt="Dancers on a stage in front of a blue LED wall with light beams" loading="lazy">
+              <span class="play" aria-hidden="true"></span>
+              <span class="len">1:22</span>
+            </span>
+            <h3>Stage performance, full cue run</h3>
+            <span class="cap">Blue beam looks on the back wall behind a live performance.</span>
+          </a>
+        </li>
+        <li>
+          <div class="slot">
+            <span class="frame">
+              <img src="assets/img/light-3.jpg" width="720" height="1280" alt="A soloist lit by a spotlight on stage with a choir and a red LED wall behind" loading="lazy">
+              <span class="soon">Clip coming soon</span>
+            </span>
+            <h3>Moving head on a soloist</h3>
+            <span class="cap">As she was singing the lights went on her. The video for this one is still to come.</span>
+          </div>
+        </li>
+        <li>
+          <a class="clip" href="assets/video/light-2.mp4" data-title="Atmosphere for a concert" data-poster="assets/img/light-2.jpg">
+            <span class="frame">
+              <img src="assets/img/light-2.jpg" width="720" height="1280" alt="Hall lights on before a service, seen from the aisle" loading="lazy">
+              <span class="play" aria-hidden="true"></span>
+              <span class="len">0:07</span>
+            </span>
+            <h3>Atmosphere for a concert</h3>
+            <span class="cap">The mood setting of the hall by the lights.</span>
+          </a>
+        </li>
+        <li>
+          <div class="slot">
+            <span class="frame">
+              <img src="assets/img/light-4.jpg" width="720" height="1280" alt="Wide view of a full hall with the stage and ceiling lit in purple" loading="lazy">
+              <span class="soon">Clip coming soon</span>
+            </span>
+            <h3>Purple wash over the hall</h3>
+            <span class="cap">A wide look at the hall and stage under a purple wash.</span>
+          </div>
+        </li>
+        <li>
+          <div class="slot">
+            <span class="frame">
+              
+              <span class="soon">Clip coming soon</span>
+            </span>
+            <h3>Lighting clip</h3>
+            <span class="cap">New clip on the way.</span>
+          </div>
+        </li>
+        <li>
+          <div class="slot">
+            <span class="frame">
+              
+              <span class="soon">Clip coming soon</span>
+            </span>
+            <h3>Lighting clip</h3>
+            <span class="cap">New clip on the way.</span>
+          </div>
+        </li>
+        <li>
+          <div class="slot">
+            <span class="frame">
+              
+              <span class="soon">Clip coming soon</span>
+            </span>
+            <h3>Lighting clip</h3>
+            <span class="cap">New clip on the way.</span>
+          </div>
+        </li>
+        <li>
+          <div class="slot">
+            <span class="frame">
+              
+              <span class="soon">Clip coming soon</span>
+            </span>
+            <h3>Lighting clip</h3>
+            <span class="cap">New clip on the way.</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<dialog id="viewer" aria-label="Video viewer">
+  <div class="v-bar">
+    <span class="t" id="vt"></span>
+    <span class="ctl">
+      <button type="button" id="vp">Previous</button>
+      <button type="button" id="vn">Next</button>
+      <button type="button" id="vc">Close</button>
+    </span>
+  </div>
+  <video controls playsinline preload="none"></video>
+</dialog>
+
+<footer class="site">
+  <div class="wrap">
+    <p>&copy; 2026 Akinyemi Fiyinfoluwa</p>
+    <ul>
+      <li><a href="privacy.html">Privacy policy</a></li>
+      <li><a href="terms.html">Terms and conditions</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="lighting.js"></script>
+</body>
+</html>
