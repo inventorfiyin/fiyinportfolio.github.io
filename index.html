@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akinyemi Fiyinfoluwa | Embedded Systems and Hardware Design Engineer</title>
+<meta name="description" content="Portfolio of Akinyemi Fiyinfoluwa, an Electrical and Electronics Engineering student at Covenant University working on ESP32 hardware, PCB design, IoT and Python tools.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Schibsted+Grotesk:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#top">Akinyemi Fiyinfoluwa</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#activities">Activities</a></li>
+        <li><a href="lighting.html">Lighting</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/resume/resume2.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<div class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <h1>Akinyemi Fiyinfoluwa</h1>
+      <p class="role">Embedded Systems and Hardware Design Engineer</p>
+      <p class="lead">I am an Electrical and Electronics Engineering student. I design ESP32 devices, lay out PCBs in KiCad and write Python tools for monitoring, simulation and network security.</p>
+      <p class="status">Open to internships and hardware collaborations</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">View projects</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+      <dl class="spec">
+        <div><dt>Studying</dt><dd>B.Eng. Electrical and Electronics Engineering, Covenant University</dd></div>
+        <div><dt>Focus</dt><dd>Embedded systems, IoT, PCB design, robotics</dd></div>
+        <div><dt>Latest role</dt><dd>IoT Engineering Intern, Uno Telos Nigeria</dd></div>
+        <div><dt>Deployed</dt><dd>Telemetry at 12+ client facilities</dd></div>
+        <div><dt>Scanner</dt><dd>1,700+ IPs checked in under 15 seconds</dd></div>
+        <div><dt>Led</dt><dd>An 80+ member technical electrical crew</dd></div>
+      </dl>
+    </div>
+    <img src="assets/img/profile.jpg" width="480" height="600" alt="Portrait of Akinyemi Fiyinfoluwa">
+  </div>
+</div>
+
+<section class="block" id="about">
+  <div class="wrap">
+    <h2>About</h2>
+    <div class="body">
+      <p>I am passionate about embedded systems, IoT, electronics, PCB design, robotics and programming. I like turning ideas into working projects and learning how hardware and software combine to solve real problems.</p>
+      <h3>B.Eng. Electrical and Electronics Engineering</h3>
+      <p class="meta">Covenant University, 2023 to 2028 (expected)</p>
+      <p>Core focus: embedded systems, circuit analysis, signal processing, power electronics and computer architecture.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="skills">
+  <div class="wrap">
+    <h2>Technical skills</h2>
+    <div class="body skills">
+      <div>
+        <h3>Hardware and EDA</h3>
+        <ul><li>KiCad schematics and PCB layout</li><li>2-layer and 4-layer boards</li><li>Power supply design</li><li>FreeCAD enclosures</li><li>Soldering and prototyping</li></ul>
+      </div>
+      <div>
+        <h3>Embedded and low-level</h3>
+        <ul><li>C, C++, Embedded C</li><li>ESP32, Arduino</li><li>I2C, SPI, UART, ADC</li><li>CAN Bus, OBD-II</li><li>DC/BLDC motor control, BMS telemetry</li></ul>
+      </div>
+      <div>
+        <h3>Software, networking and automation</h3>
+        <ul><li>Python, asyncio, FastAPI</li><li>Multithreading, sockets</li><li>TCP/IP, subnetting, DNSBL analysis</li><li>Git, GitHub, Linux, Bash</li><li>MATLAB, NumPy, SciPy</li></ul>
+      </div>
+      <div>
+        <h3>Lab and instrumentation</h3>
+        <ul><li>Oscilloscopes</li><li>Logic analyzers</li><li>Signal verification</li><li>Hardware debugging</li><li>SavvyCAN, Vector CANoe (fundamentals)</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="projects">
+  <div class="wrap">
+    <h2>Projects</h2>
+    <div class="body">
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button type="button" data-filter="All" aria-pressed="true">All</button>
+        <button type="button" data-filter="Embedded and firmware" aria-pressed="false">Embedded and firmware</button>
+        <button type="button" data-filter="PCB and hardware" aria-pressed="false">PCB and hardware</button>
+        <button type="button" data-filter="Software and automation" aria-pressed="false">Software and automation</button>
+      </div>
+      <article class="item project" data-cat="Embedded and firmware|PCB and hardware">
+        <img src="assets/img/project1.png" width="960" height="540" alt="Power Sentry Smart Plug (CU-PowerSentry) preview" loading="lazy">
+        <h3>Power Sentry Smart Plug (CU-PowerSentry)</h3>
+        <p class="meta">Embedded hardware and IoT, built</p>
+        <p>An ESP32 smart plug that measures 230V AC mains voltage and current in real time, switches a relay, and cuts power automatically on over-current.</p>
+        <ul class="tags"><li>ESP32</li><li>KiCad</li><li>C++</li><li>FreeCAD</li></ul>
+        <details><summary>Specs and details</summary><dl class="specs"><div><dt>Board</dt><dd>Custom 2-layer PCB in KiCad</dd></div><div><dt>Sensing</dt><dd>SCT-013 current, ZMPT101B voltage</dd></div><div><dt>Power</dt><dd>HLK-PM01 and AMS1117 regulation</dd></div><div><dt>Protection</dt><dd>MOV surge suppression, optocoupled relay</dd></div><div><dt>Layout</dt><dd>Dedicated RF keep-out zones</dd></div></dl><p>The ESP32 computes RMS active power in firmware. When current passes the set limit, the relay trips to protect the connected appliance. Mains-side and logic-side sections are kept separate on the board.</p></details>
+      </article>
+      <article class="item project" data-cat="Embedded and firmware|PCB and hardware">
+        
+        <h3>Automotive CAN-FD Telemetry Node</h3>
+        <p class="meta">Embedded hardware, in design</p>
+        <p>A vehicle telemetry node that reads CAN-FD traffic and reports it wirelessly, built around an ESP32-S3.</p>
+        <ul class="tags"><li>ESP32-S3</li><li>CAN-FD</li><li>KiCad</li><li>FreeCAD</li></ul>
+        <details><summary>Specs and details</summary><dl class="specs"><div><dt>Board</dt><dd>4-layer PCB</dd></div><div><dt>MCU</dt><dd>ESP32-S3</dd></div><div><dt>Bus</dt><dd>CAN-FD, differential transceiver</dd></div><div><dt>Protection</dt><dd>TVS surge protection</dd></div><div><dt>Enclosure</dt><dd>3D-printed, modeled in FreeCAD</dd></div></dl><p>This is the project I am designing now. Measurements and bring-up results will be added here once the first boards are built.</p></details>
+      </article>
+      <article class="item project" data-cat="Software and automation">
+        <img src="assets/img/project2.png" width="960" height="540" alt="2D Autonomous Navigation Simulator preview" loading="lazy">
+        <h3>2D Autonomous Navigation Simulator</h3>
+        <p class="meta">Simulation and robotics, built</p>
+        <p>A Python simulation of A* and Dijkstra path planning for a mobile robot, with obstacle avoidance, trajectory optimization and a battery model.</p>
+        <ul class="tags"><li>Python</li><li>NumPy</li><li>SciPy</li><li>Matplotlib</li></ul>
+        <details><summary>Specs and details</summary><dl class="specs"><div><dt>Model</dt><dd>Non-holonomic bicycle kinematics</dd></div><div><dt>Planning</dt><dd>Global A* grid planner</dd></div><div><dt>Control</dt><dd>Stanley steering</dd></div><div><dt>Battery</dt><dd>Multi-cell Li-ion, Coulomb-counting SoC</dd></div><div><dt>Checked</dt><dd>Within 2% margin of error</dd></div></dl><p>The battery model includes internal resistance voltage drop and safety thresholds under different C-rate loads. Trajectory animations and cell voltage decay curves are generated automatically.</p></details>
+      </article>
+      <article class="item project" data-cat="Software and automation">
+        <img src="assets/img/project3.png" width="960" height="540" alt="Threat Intelligence Scanner preview" loading="lazy">
+        <h3>Threat Intelligence Scanner</h3>
+        <p class="meta">Automation and security, built</p>
+        <p>A multi-threaded Python scanner that checks 1,700+ IP addresses against Spamhaus ZEN in under 15 seconds and reports high-risk hosts.</p>
+        <ul class="tags"><li>Python</li><li>Sockets</li><li>Multithreading</li><li>DNSBL</li></ul>
+        <details><summary>Specs and details</summary><dl class="specs"><div><dt>Scale</dt><dd>1,700+ IP addresses</dd></div><div><dt>Run time</dt><dd>Under 15 seconds</dd></div><div><dt>Source</dt><dd>Spamhaus ZEN</dd></div><div><dt>Output</dt><dd>XBL exploit hosts vs PBL policy ranges</dd></div></dl><p>Lookups are made at socket level and return codes are parsed to separate active malware or exploit hosts from policy-listed ranges. The same approach was used in scripts during my internship.</p></details>
+        <details><summary>View the code</summary><p class="meta">spamhaus.py, shown here with a 50-address sample list. <a href="assets/code/spamhaus.py" download>Download spamhaus.py</a> or browse the rest on <a href="https://github.com/inventorfiyin/" target="_blank" rel="noopener noreferrer">GitHub</a>.</p><pre class="code" tabindex="0"><code>&quot;&quot;&quot;Multi-threaded IP reputation scanner against Spamhaus ZEN (DNSBL).
+
+Each IP is looked up as &lt;reversed-ip&gt;.zen.spamhaus.org. The return code says
+which list the address is on:
+  XBL  127.0.0.4-7    exploited / malware-infected hosts
+  SBL  127.0.0.2-3    spam sources
+  PBL  127.0.0.10-11  dynamic or policy ranges (not a sign of compromise)
+No answer (NXDOMAIN) means the address is not listed.
+
+Note: Spamhaus refuses queries from large public resolvers (8.8.8.8, 1.1.1.1
+and similar) and answers 127.255.255.x instead. Run this on a resolver of your
+own or your ISP&#x27;s.
+&quot;&quot;&quot;
+import socket
+import time
+from concurrent.futures import ThreadPoolExecutor
+from ipaddress import ip_network
+
+# Single addresses or CIDR ranges, e.g. &quot;102.89.69.0/24&quot;.
+TARGETS = [
+    &quot;102.89.69.255&quot;, &quot;102.89.69.253&quot;, &quot;102.89.69.252&quot;, &quot;102.89.69.251&quot;,
+    &quot;102.89.69.250&quot;, &quot;102.89.69.249&quot;, &quot;102.89.69.247&quot;, &quot;102.89.69.246&quot;,
+    &quot;102.89.69.245&quot;, &quot;102.89.69.244&quot;, &quot;102.89.69.243&quot;, &quot;102.89.69.242&quot;,
+    &quot;102.89.69.241&quot;, &quot;102.89.69.240&quot;, &quot;102.89.69.239&quot;, &quot;102.89.69.238&quot;,
+    &quot;102.89.69.237&quot;, &quot;102.89.69.236&quot;, &quot;102.89.69.235&quot;, &quot;102.89.69.234&quot;,
+    &quot;102.89.69.233&quot;, &quot;102.89.69.232&quot;, &quot;102.89.69.231&quot;, &quot;102.89.69.230&quot;,
+    &quot;102.89.69.229&quot;, &quot;102.89.69.228&quot;, &quot;102.89.69.227&quot;, &quot;102.89.69.226&quot;,
+    &quot;102.89.69.225&quot;, &quot;102.89.69.224&quot;, &quot;102.89.69.222&quot;, &quot;102.89.69.221&quot;,
+    &quot;102.89.69.220&quot;, &quot;102.89.69.219&quot;, &quot;102.89.69.218&quot;, &quot;102.89.69.217&quot;,
+    &quot;102.89.69.216&quot;, &quot;102.89.69.215&quot;, &quot;102.89.69.214&quot;, &quot;102.89.69.213&quot;,
+    &quot;102.89.69.212&quot;, &quot;102.89.69.211&quot;, &quot;102.89.69.210&quot;, &quot;102.89.69.209&quot;,
+    &quot;102.89.69.208&quot;, &quot;102.89.69.207&quot;, &quot;102.89.69.206&quot;, &quot;102.89.69.205&quot;,
+    &quot;102.89.69.204&quot;, &quot;102.89.69.203&quot;,
+]
+
+SBL_CODES = {&quot;127.0.0.2&quot;, &quot;127.0.0.3&quot;}
+XBL_CODES = {&quot;127.0.0.4&quot;, &quot;127.0.0.5&quot;, &quot;127.0.0.6&quot;, &quot;127.0.0.7&quot;}
+PBL_CODES = {&quot;127.0.0.10&quot;, &quot;127.0.0.11&quot;}
+
+WORKERS = 8
+RETRIES = 3          # extra attempts when Spamhaus rate-limits or DNS hiccups
+BACKOFF = 2.0        # seconds, multiplied by the attempt number
+
+
+def lookup(ip):
+    &quot;&quot;&quot;One DNSBL query. Returns (status, code).&quot;&quot;&quot;
+    query = &quot;.&quot;.join(reversed(ip.split(&quot;.&quot;))) + &quot;.zen.spamhaus.org&quot;
+    try:
+        code = socket.gethostbyname(query)
+    except socket.gaierror as exc:
+        # Only &quot;name not found&quot; means &quot;not listed&quot;. Anything else (SERVFAIL,
+        # no network) says nothing about the IP, so it is not counted as clean.
+        if exc.errno in (socket.EAI_NONAME, getattr(socket, &quot;EAI_NODATA&quot;, -5)):
+            return &quot;CLEAN&quot;, None
+        return &quot;ERROR&quot;, None
+    if code.startswith(&quot;127.255.&quot;):
+        return &quot;RATE_LIMITED&quot;, code
+    if code in XBL_CODES:
+        return &quot;XBL&quot;, code
+    if code in SBL_CODES:
+        return &quot;SBL&quot;, code
+    if code in PBL_CODES:
+        return &quot;PBL&quot;, code
+    return &quot;OTHER&quot;, code
+
+
+def check(ip):
+    for attempt in range(RETRIES + 1):
+        status, code = lookup(ip)
+        if status not in (&quot;RATE_LIMITED&quot;, &quot;ERROR&quot;):
+            break
+        time.sleep(BACKOFF * (attempt + 1))  # back off inside the worker thread
+    return ip, status, code
+
+
+def expand(targets):
+    hosts = []
+    for t in targets:
+        net = ip_network(t, strict=False)
+        hosts.extend(str(h) for h in net.hosts())  # /32 yields the address itself
+    return hosts
+
+
+def main():
+    hosts = expand(TARGETS)
+    print(f&quot;[*] Scanning {len(hosts)} hosts with {WORKERS} threads\n&quot;, flush=True)
+
+    counts = {}
+    hits = []
+    started = time.time()
+    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        for ip, status, code in pool.map(check, hosts):
+            counts[status] = counts.get(status, 0) + 1
+            if status in (&quot;XBL&quot;, &quot;SBL&quot;):
+                print(f&quot;[+] {status} HIT {ip} -&gt; {code}&quot;, flush=True)
+                hits.append(ip)
+            elif status == &quot;OTHER&quot;:
+                print(f&quot;[?] Unrecognised code for {ip}: {code}&quot;, flush=True)
+    elapsed = time.time() - started
+
+    print(&quot;\n&quot; + &quot;=&quot; * 45)
+    print(&quot;                 SCAN SUMMARY&quot;)
+    print(&quot;=&quot; * 45)
+    print(f&quot;Hosts evaluated        : {len(hosts)}&quot;)
+    print(f&quot;XBL (exploit) listed   : {counts.get(&#x27;XBL&#x27;, 0)}&quot;)
+    print(f&quot;SBL (spam) listed      : {counts.get(&#x27;SBL&#x27;, 0)}&quot;)
+    print(f&quot;PBL (policy ranges)    : {counts.get(&#x27;PBL&#x27;, 0)}&quot;)
+    print(f&quot;Clean                  : {counts.get(&#x27;CLEAN&#x27;, 0)}&quot;)
+    print(f&quot;Unchecked (rate/error) : {counts.get(&#x27;RATE_LIMITED&#x27;, 0) + counts.get(&#x27;ERROR&#x27;, 0)}&quot;)
+    print(f&quot;Elapsed                : {elapsed:.1f}s&quot;)
+    print(&quot;=&quot; * 45)
+
+
+if __name__ == &quot;__main__&quot;:
+    main()</code></pre></details>
+      </article>
+      <article class="item project" data-cat="PCB and hardware|Embedded and firmware">
+        
+        <h3>Industrial Fuel Consumption Telemetry</h3>
+        <p class="meta">Industrial IoT, deployed</p>
+        <p>Remote telemetry units that track fuel level and consumption at diesel generator plants. Built with an engineering team.</p>
+        <ul class="tags"><li>Level transducers</li><li>Relays</li><li>IoT gateways</li><li>DIN-rail</li></ul>
+        <details><summary>Specs and details</summary><dl class="specs"><div><dt>Sites</dt><dd>5+ diesel generator plants</dd></div><div><dt>Inputs</dt><dd>Level transducers</dd></div><div><dt>Control</dt><dd>Industrial relays, IoT gateways</dd></div><div><dt>Packaging</dt><dd>Custom DIN-rail enclosures</dd></div></dl><p>My part was assisting with integrating the transducers, relays and gateways, and assembling the enclosures so signals stay clean in high-vibration field conditions.</p></details>
+      </article>
+      <article class="item project" data-cat="Software and automation|Embedded and firmware">
+        
+        <h3>N.O.V.A. Workstation Telemetry Assistant</h3>
+        <p class="meta">Edge automation, built</p>
+        <p>A local async agent that monitors a workstation and runs tasks over WebSockets, with a local LLM for command parsing.</p>
+        <ul class="tags"><li>Python</li><li>FastAPI</li><li>WebSockets</li><li>OpenCV</li><li>Ollama</li></ul>
+        <details><summary>Specs and details</summary><dl class="specs"><div><dt>Backend</dt><dd>Async FastAPI service</dd></div><div><dt>Transport</dt><dd>WebSockets, bi-directional</dd></div><div><dt>Vision</dt><dd>OpenCV triggers</dd></div><div><dt>Language model</dt><dd>Local Ollama</dd></div><div><dt>Background</dt><dd>System health daemons</dd></div></dl><p>Hardware stats and OS tasks flow over a live connection, and everything runs locally. I use it to speed up log analysis and debugging on embedded work.</p></details>
+      </article>
+      <p>Source code for these projects is on <a href="https://github.com/inventorfiyin/" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="certifications">
+  <div class="wrap">
+    <h2>Certifications</h2>
+    <div class="body">
+      <div class="item">
+        <h3>Introduction to IoT</h3>
+        <p class="meta">Cisco Networking Academy, August 2026</p>
+        <a href="assets/certificates/IOT.pdf" target="_blank" rel="noopener noreferrer">View credential (PDF)</a>
+      </div>
+      <div class="item">
+        <h3>Microsoft Office Specialist: Word</h3>
+        <p class="meta">Microsoft, verified on Credly, 2026</p>
+        <a href="assets/img/ms-badge.png" target="_blank" rel="noopener noreferrer">View badge</a>
+      </div>
+      <div class="item">
+        <h3>Prompt Engineering for Generative AI</h3>
+        <p class="meta">Vanderbilt University on Coursera, 2026</p>
+        <a href="assets/certificates/certificate.pdf" target="_blank" rel="noopener noreferrer">View certificate (PDF)</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="experience">
+  <div class="wrap">
+    <h2>Experience and leadership</h2>
+    <div class="body">
+      <div class="item">
+        <h3>Chief Leader</h3>
+        <p class="meta">Deltrove, Sep 2026 to present</p>
+      </div>
+      <div class="item">
+        <h3>IoT Engineering Intern</h3>
+        <p class="meta">Uno Telos Nigeria, Jul 2026 to Sep 2026</p>
+        <p>Deployed, configured and diagnosed remote telemetry across 12+ client facilities. Ran diagnostics on 20+ power monitoring nodes, reducing field signal faults by 30%, and wrote Python automation that cut manual diagnostic time by 95%.</p>
+        <ul class="tags"><li>Python</li><li>Telemetry</li></ul>
+        <a href="assets/resume/recommendation-letter.pdf" target="_blank" rel="noopener noreferrer">View recommendation letter (PDF)</a>
+      </div>
+      <div class="item">
+        <h3>Electrical Head and System Operator</h3>
+        <p class="meta">Technical Crew, Covenant University Chapel, Sep 2025 to present</p>
+        <p>Lead an 80+ member crew running high-voltage distribution, DMX routing and Avolites Titan console operation for broadcasts with 10,000+ attendees.</p>
+      </div>
+      <div class="item">
+        <h3>Data Operations Lead</h3>
+        <p class="meta">Technical Crew Service Unit, Sep 2024 to Jul 2025</p>
+        <p>Standardized inventory tracking and personnel workflows across a team of 200+ members, increased recruitment process by 50%.</p>
+      </div>
+      <div class="item">
+        <h3>Head Football Coach</h3>
+        <p class="meta">Covenant University Athletics, Sep 2023 to present</p>
+        <p>Led tactical training and squad conditioning to win the University Championship, and was named Coach of the Tournament.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="activities">
+  <div class="wrap">
+    <h2>Activities and interests</h2>
+    <div class="body">
+      <div class="item">
+        <h3>Live stage lighting design and console mixing</h3>
+        <p class="meta">Production and lighting</p>
+        <p>Head lighting operator and designer on major live productions. I program fixtures, manage DMX universes and run cues during live broadcasts.</p>
+        <div class="photos reels">
+          <a href="lighting.html" aria-label="Open the lighting gallery"><img src="assets/img/light-1.jpg" width="360" height="640" alt="Dancers on a stage in front of a blue LED wall with light beams" loading="lazy"></a>
+          <a href="lighting.html" aria-label="Open the lighting gallery"><img src="assets/img/light-3.jpg" width="360" height="640" alt="A soloist lit by a spotlight on stage with a choir and a red LED wall behind" loading="lazy"></a>
+          <a href="lighting.html" aria-label="Open the lighting gallery"><img src="assets/img/light-2.jpg" width="360" height="640" alt="Hall lights on before a service, seen from the aisle" loading="lazy"></a>
+        </div>
+        <p><a class="btn primary" href="lighting.html">Open the lighting gallery</a></p>
+      </div>
+      <div class="item"> 
+        <h3>Building technology and site practical work</h3>
+        <p class="meta">Engineering SWEP</p>
+        <p>Hands-on construction experience during SWEP, covering structural fundamentals, on-site safety procedures and painting as part of a crew.</p>
+        <div class="photos">
+          <img src="assets/img/phot3.jpg" width="480" height="640" alt="Close-up of painting a kerb with black paint during SWEP" loading="lazy">
+          <img src="assets/img/phot.jpg" width="480" height="640" alt="Akinyemi Fiyinfoluwa painting a kerb with the SWEP crew behind him" loading="lazy">
+        </div>
+      </div>
+      <div class="item">
+        <h3>Football coaching and championship honors</h3>
+        <p class="meta">Athletics and leadership</p>
+        <p>Led squad tactics and fitness conditioning to a tournament win, and received the Coach of the Tournament award.</p>
+        <div class="photos">
+          <img src="assets/img/phot2.jpg" width="480" height="640" alt="Coach of the Season medal and plaque from the Covenant University SWEP League 2024/2025" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <div class="body">
+      <p>I am looking for internships, PCB Design and embedded hardware collaborations. Email is the fastest way to reach me.</p>
+      <ul class="contact-list">
+        <li><span>Email</span><a href="mailto:inventorfiyin.2022@gmail.com">inventorfiyin.2022@gmail.com</a></li>
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/fiyinfoluwa2007/" target="_blank" rel="noopener noreferrer">linkedin.com/in/fiyinfoluwa2007</a></li>
+        <li><span>GitHub</span><a href="https://github.com/inventorfiyin/" target="_blank" rel="noopener noreferrer">github.com/inventorfiyin</a></li>
+        <li><span>Instagram</span><a href="https://www.instagram.com/_.fiyin.ak._/" target="_blank" rel="noopener noreferrer">@_.fiyin.ak._</a></li>
+      </ul>
+      <form id="cf" class="cform" novalidate>
+        <h3>Send a message</h3>
+        <div><label for="cn">Name</label><input id="cn" autocomplete="name"><p class="err" id="en" role="alert"></p></div>
+        <div><label for="ce">Email</label><input id="ce" type="email" autocomplete="email"><p class="err" id="ee" role="alert"></p></div>
+        <div><label for="cm">Message</label><textarea id="cm" rows="5"></textarea><p class="err" id="em" role="alert"></p></div>
+        <div class="hp" aria-hidden="true"><label for="cw">Leave this field empty</label><input id="cw" name="website" tabindex="-1" autocomplete="off"></div>
+        <button class="btn primary" type="submit">Send message</button>
+        <p class="meta" id="cs" role="status">Your message goes straight to my inbox.</p>
+      </form>
+      <div class="term">
+        <p class="term-h">Terminal. Try help, skills, projects, contact.</p>
+        <div id="tout" aria-live="polite"></div>
+        <form id="tf"><label for="tin" class="sr">Command</label><span>:</span><input id="tin" autocomplete="off" spellcheck="false"></form>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p>&copy; 2026 Akinyemi Fiyinfoluwa</p>
+    <ul>
+      <li><a href="privacy.html">Privacy policy</a></li>
+      <li><a href="terms.html">Terms and conditions</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
